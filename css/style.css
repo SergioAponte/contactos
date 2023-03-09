@@ -1,0 +1,110 @@
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+body{
+          background-color: aqua;
+}
+.general{
+          height: 100vh;
+          width: 100vw;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+
+}
+.imagenes{
+          height: 80px;
+          width: 100vw;
+          display: flex;
+}
+.formulario{
+          height: 70%;
+          width: 90%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 30px;
+}
+
+.informacion_foto{
+          display: flex;
+          height: 100%;
+          width: 100%;
+          /* align-items: center; */
+}
+.registro{
+          height: 100%;
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 30px;
+}
+.seccion_nombre{
+          height: 20%;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+}
+.seccion_criterio{
+          height: 20%;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+}
+
+select{
+          height: 40px;
+          width: 100%;
+          border-radius: 10px;
+}
+
+.botones{
+          height: 20%;
+}
+
+input{
+          height: 40px;
+          width: 100%;
+          border-radius: 10px;
+}
+
+button{
+          height: 40px;
+          width: 150px;
+          border-radius: 20px;
+}
+
+.resultado{
+          height: 20%;
+          width: 90%;
+          border: 1px solid black;
+          margin-top: -20px;
+          background-color: white;
+          font-size: 20px;
+
+}
+.buscar{
+          background-color: blue;
+          color: white;
+}
+.agregar{
+          background-color: chartreuse;
+}
+.imagen{
+          height: 80%;
+          width: 50%;
+          background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-tmnpe&psig=AOvVaw2GxsUpUQNFnyDJMyLfWmU9&ust=1678469796032000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDjw7Gxz_0CFQAAAAAdAAAAABAs) ;         
+          background-repeat: no-repeat;
+          background-size: cover;
+}
+img{
+          height: 100%;
+          width: 80%;    
+          background-repeat: no-repeat;
+          background-size: cover; 
+}
